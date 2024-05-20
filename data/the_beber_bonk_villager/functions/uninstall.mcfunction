@@ -111,4 +111,4 @@ tag @e remove VB_to_forgive
 execute as @e[tag=VB_bonked_state] run data modify entity @s NoAI set value 0b
 
 # Lastly disable the datapack:
-datapack disable "file/Bonk Villager v1.2-MC1.17+.zip"
+datapack disable "file/Bonk Villager v1.2-MC1.16.zip"
