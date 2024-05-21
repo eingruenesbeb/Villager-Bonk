@@ -1,0 +1,84 @@
+{
+    "description": [
+      {
+        "text": "Bonking\n",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "color": "gray",
+        "italic": true,
+        "extra": [
+          "This enchantment allows you to whack a villager with the stick\n",
+          "to disable it's AI, if it's enabled (or vice versa). This should\n",
+          "provide a significant performance boost to worlds with many\n",
+          "trading halls.\n"
+        ]
+      },
+      {
+        "text": "Sideeffect: Changes restocking mechanics slightly!",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    "supported_items": "minecraft:stick",
+    "primary_items": "minecraft:stick",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:damage": [
+        {
+          "effect": {
+            "type": "minecraft:set",
+            "value": 0
+          },
+          "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:villager"
+            }
+          }
+        }
+      ],
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "the_beber_bonk_villager:when_bonked"
+          },
+          "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:villager"
+            }
+          }
+        },
+        {
+          "enchanted": "attacker",
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:play_sound",
+            "sound": "the_beber:bonk_villager.bonk",
+            "volume": 0.00001,
+            "pitch": 0.00001
+          }
+        }
+      ]
+    }
+}

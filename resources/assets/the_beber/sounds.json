@@ -1,0 +1,8 @@
+{
+	"bonk_villager.bonk": {
+		"subtitle": "Villager bonked",
+		"sounds": [
+			"bonk_villager/bonk"
+		]
+	}
+}

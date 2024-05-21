@@ -9,14 +9,6 @@ execute if entity @s[tag=VB_bonk_apply] run tag @s add VB_bonked_state
 execute if entity @s[tag=VB_bonk_remove] run data modify entity @s NoAI set value 0b
 execute if entity @s[tag=VB_bonk_remove] run tag @s remove VB_bonked_state
 
-# Curb negative gossip:
-# Store the first entry in the list, which is checked last, of Gossips to stop the search, even if no match was found. This prevents the search function from running indefinitly.
-data modify storage the_beber_bonk_villager:gossip_system LastToSearch set from entity @s Gossips[0]
-data modify storage the_beber_bonk_villager:gossip_system LastToSearchBackup set from entity @s Gossips[0]
-# Copy the list into storage to avoid bug MC-153392.
-data modify storage the_beber_bonk_villager:gossip_system GossipsCopy set from entity @s Gossips
-function the_beber_bonk_villager:search_gossip_entry
-
 tag @s remove VB_bonk_apply
 tag @s remove VB_bonk_remove
 
