@@ -5,7 +5,7 @@ SCRIPT_PATH=$(readlink -f "$0")
 # Get the directory of the script
 SCRIPT_DIR=$(dirname "$SCRIPT_PATH")
 # Move to the grandparent directory
-cd "$SCRIPT_DIR/../.."
+cd "$SCRIPT_DIR/.."
 
 # Determine the parent directory name
 PARENT_DIR=$(basename "$(pwd)")
