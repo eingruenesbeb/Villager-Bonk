@@ -10,5 +10,5 @@ execute run data modify entity @s Offers.Recipes[7].uses set value 0
 execute run data modify entity @s Offers.Recipes[8].uses set value 0
 execute run data modify entity @s Offers.Recipes[9].uses set value 0
 
-execute as @e[tag=VB_bonked_state] if data entity @s {RestocksToday:1} run data modify entity @s RestocksToday set value 2
-execute as @e[tag=VB_bonked_state] if data entity @s {RestocksToday:0} run data modify entity @s RestocksToday set value 1
+execute as @e[tag=the_beber_BV_bonked_state] if data entity @s {RestocksToday:1} run data modify entity @s RestocksToday set value 2
+execute as @e[tag=the_beber_BV_bonked_state] if data entity @s {RestocksToday:0} run data modify entity @s RestocksToday set value 1
