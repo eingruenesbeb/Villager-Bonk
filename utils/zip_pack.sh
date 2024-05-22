@@ -34,9 +34,15 @@ fi
 # Create the archives directory if it doesn't exist
 mkdir -p archives
 
+# Delete preexisting archives of the same name.
+[ -f "./archives/$ARCHIVE_NAME.zip" ] && rm "./archives/$ARCHIVE_NAME.zip"
+[ -f "./archives/$ARCHIVE_NAME (resources).zip" ] && rm "./archives/$ARCHIVE_NAME (resources).zip"
+
 # Create zip archives for datapack and resources directories
-zip -r "archives/${ARCHIVE_NAME}.zip" datapack
-zip -r "archives/${ARCHIVE_NAME} (resources).zip" resources
+cd "./datapack"
+zip -r "../archives/${ARCHIVE_NAME}.zip" *
+cd "../resources"
+zip -r "../archives/${ARCHIVE_NAME} (resources).zip" *
 
 echo "Archives created in the 'archives' directory:"
 echo " - archives/${ARCHIVE_NAME}.zip"

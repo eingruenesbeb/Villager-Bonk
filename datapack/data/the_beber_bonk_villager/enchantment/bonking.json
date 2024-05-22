@@ -68,16 +68,6 @@
               "type": "minecraft:villager"
             }
           }
-        },
-        {
-          "enchanted": "attacker",
-          "affected": "attacker",
-          "effect": {
-            "type": "minecraft:play_sound",
-            "sound": "the_beber:bonk_villager.bonk",
-            "volume": 0.00001,
-            "pitch": 0.00001
-          }
         }
       ]
     }
