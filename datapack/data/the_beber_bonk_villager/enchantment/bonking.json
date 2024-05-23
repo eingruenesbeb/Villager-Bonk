@@ -43,7 +43,7 @@
         "affected": "attacker",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "the_beber_bonk_villager:tag_to_forgive"
+          "function": "the_beber_bonk_villager:gossip/_tag_to_forgive"
         }
       },
       {
@@ -51,7 +51,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "the_beber_bonk_villager:when_bonked"
+          "function": "the_beber_bonk_villager:_when_bonked"
         },
         "requirements": {
           "condition": "minecraft:entity_properties",

@@ -19,5 +19,5 @@ data remove storage the_beber_bonk_villager:gossip_system GossipsCopy[-1]
 # If the list is identical to the original one, force stop the search, as every entry should have been searched by then. Otherwise stop the search and modify the first entry, which should be a match, if the corresponding score is 1, or continue the search.
 execute store success score %the_beber_BV_search% the_beber_BV_search run data modify storage the_beber_bonk_villager:gossip_system LastToSearch set from storage the_beber_bonk_villager:gossip_system GossipsCopy[0]
 data modify storage the_beber_bonk_villager:gossip_system LastToSearch set from storage the_beber_bonk_villager:gossip_system LastToSearchBackup
-execute if score %the_beber_BV_found_nentry% the_beber_BV_found_ne matches 0 run function the_beber_bonk_villager:curb_gossip
-execute if score %the_beber_BV_search% the_beber_BV_search matches 1 run function the_beber_bonk_villager:search_gossip_entry
+execute if score %the_beber_BV_found_nentry% the_beber_BV_found_ne matches 0 run function the_beber_bonk_villager:gossip/_curb_gossip
+execute if score %the_beber_BV_search% the_beber_BV_search matches 1 run function the_beber_bonk_villager:gossip/_search_gossip_entry

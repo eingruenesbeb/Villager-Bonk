@@ -2,7 +2,7 @@
 tellraw @a[distance=..6] {"text":"*BONK*","italic":true,"color":"gray"}
 
 # The tag keeping track of a villagers status was previously `VB_bonked_state`. Change it automatically, if encountered:
-execute as @s[tag=VB_entityhit.nbit0] run function the_beber_bonk_villager:upgrade_tags
+execute as @s[tag=VB_entityhit.nbit0] run function the_beber_bonk_villager:_upgrade_tags
 
 execute if entity @s[tag=!the_beber_BV_bonked_state] run tag @s add the_beber_BV_bonk_apply
 execute if entity @s[tag=the_beber_BV_bonked_state] run tag @s add the_beber_BV_bonk_remove
@@ -21,6 +21,6 @@ data modify storage the_beber_bonk_villager:gossip_system LastToSearch set from 
 data modify storage the_beber_bonk_villager:gossip_system LastToSearchBackup set from entity @s Gossips[0]
 # Copy the list into storage to avoid bug MC-153392.
 data modify storage the_beber_bonk_villager:gossip_system GossipsCopy set from entity @s Gossips
-function the_beber_bonk_villager:search_gossip_entry
+function the_beber_bonk_villager:gossip/_search_gossip_entry
 
 tag @n[tag=the_beber_BV_toForgive] remove the_beber_BV_toForgive
