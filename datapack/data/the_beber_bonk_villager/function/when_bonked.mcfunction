@@ -1,6 +1,9 @@
 # at: @s; as: victim; enchantment: the_beber_bonk_villager:bonking
 tellraw @a[distance=..6] {"text":"*BONK*","italic":true,"color":"gray"}
 
+# The tag keeping track of a villagers status was previously `VB_bonked_state`. Change it automatically, if encountered:
+execute as @s[tag=VB_entityhit.nbit0] run function the_beber_bonk_villager:upgrade_tags
+
 execute if entity @s[tag=!the_beber_BV_bonked_state] run tag @s add the_beber_BV_bonk_apply
 execute if entity @s[tag=the_beber_BV_bonked_state] run tag @s add the_beber_BV_bonk_remove
 
