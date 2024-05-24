@@ -1,15 +1,16 @@
 [
   {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "eingruenesbeb.bonk_villager:bonking": 1
+    },
+    "add": false
+  },
+  {
     "function": "minecraft:set_components",
     "components": {
       "minecraft:enchantment_glint_override": true,
-      "minecraft:custom_data": {
-        "smithed": {
-          "ignore": {
-            "functionality": 1
-          }
-        }
-      }
+      "minecraft:custom_data": {}
     }
   },
   {
