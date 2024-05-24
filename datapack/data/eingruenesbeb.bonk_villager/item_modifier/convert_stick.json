@@ -16,12 +16,12 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": "This enchantment allows you to whack a villager with the",
+        "text": "This enchantment allows you to whack a villager with it,",
         "color": "gray",
         "italic": true
       },
       {
-        "text": "it, to disable it's AI, if it's enabled (or vice versa).",
+        "text": "to disable it's AI, if it's enabled (or vice versa).",
         "color": "gray",
         "italic": true
       },
