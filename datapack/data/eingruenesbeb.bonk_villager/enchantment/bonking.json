@@ -29,11 +29,8 @@
           "value": 0
         },
         "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "minecraft:villager"
-          }
+          "condition": "minecraft:reference",
+          "name": "eingruenesbeb.bonk_villager:target_is_villager"
         }
       }
     ],
@@ -43,7 +40,11 @@
         "affected": "attacker",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "the_beber_bonk_villager:gossip/_tag_to_forgive"
+          "function": "eingruenesbeb.bonk_villager:gossip/_tag_to_forgive"
+        },
+        "requirements": {
+          "condition": "minecraft:reference",
+          "name": "eingruenesbeb.bonk_villager:target_is_villager"
         }
       },
       {
@@ -51,14 +52,11 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "the_beber_bonk_villager:_when_bonked"
+          "function": "eingruenesbeb.bonk_villager:_when_bonked"
         },
         "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "minecraft:villager"
-          }
+          "condition": "minecraft:reference",
+          "name": "eingruenesbeb.bonk_villager:target_is_villager"
         }
       }
     ]

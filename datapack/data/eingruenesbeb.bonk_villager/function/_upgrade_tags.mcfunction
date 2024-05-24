@@ -1,4 +1,4 @@
-# at: @s; as: victim; enchantment: the_beber_bonk_villager:bonking; if: tag=VB_entityhit.nbit0
+# at: @s; as: victim; enchantment: eingruenesbeb.bonk_villager:bonking; if: tag=VB_entityhit.nbit0
 # Remove legacy tags from the villager:
 tag @s remove VB_entityhit.nbit0
 tag @s remove VB_entityhit.bit0
@@ -66,5 +66,5 @@ tag @s remove VB_entityhit.nbit31
 tag @s remove VB_entityhit.bit31
 
 # Change out renamed tag:
-tag @s[tag=VB_bonked_state] add the_beber_BV_bonked_state
+tag @s[tag=VB_bonked_state] add eingruenesbeb.bv.bonked_state
 tag @s[tag=VB_bonked_state] remove VB_bonked_state

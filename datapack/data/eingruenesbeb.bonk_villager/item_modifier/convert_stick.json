@@ -42,7 +42,7 @@
   {
     "function": "minecraft:set_enchantments",
     "enchantments": {
-      "the_beber_bonk_villager:bonking": 1
+      "eingruenesbeb.bonk_villager:bonking": 1
     },
     "add": false
   }
