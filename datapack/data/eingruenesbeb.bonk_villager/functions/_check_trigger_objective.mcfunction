@@ -1,4 +1,0 @@
-scoreboard players enable @a villagerBonk
-execute as @a[scores={villagerBonk=1..}, predicate=eingruenesbeb.bonk_villager:has_stick] run item replace entity @s weapon with stick{Tags:[villager_bonk_stick], display:{Name:'[{"text":"The Villager \\"Bonk\\"-Stick 9000™","italic":false,"color":"gold"}]',Lore:['[{"text":"This stick allows you to whack a villager with it to disable it\'s AI,","italic":false}]','[{"text":"if it\'s enabled (or vice versa).This should provide a significant","bold": false}]','[{"text":"performance boost to worlds with many trading halls.","bold": false}]','[{"text":"Sideeffect: Changes restocking mechanics slightly!","italic":true,"color":"dark_gray"}]']},Enchantments:[{}]} 1
-execute as @a[scores={villagerBonk=1..}, predicate=!eingruenesbeb.bonk_villager:has_stick] run tellraw @s {"text":"You need to hold a single stick to do this!","color":"yellow"}
-execute as @a[scores={villagerBonk=1..}] run scoreboard players set @s villagerBonk 0

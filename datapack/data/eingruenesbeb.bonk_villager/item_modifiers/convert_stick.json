@@ -1,0 +1,55 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": {
+        "smithed": {
+          "ignore": {
+            "functionality": 1
+          }
+        }
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "This enchantment allows you to whack a villager with the stick",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "to disable it's AI, if it's enabled (or vice versa). This should",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "provide a significant performance boost.",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "Especially to worlds with many trading halls.",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "Sideeffect: Changes restocking mechanics slightly!",
+        "color": "dark_gray",
+        "italic": true
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "target": "item_name",
+    "name": {
+      "text": "The Villager \"Bonk\"-Stick 9000™",
+      "color": "gold"
+    }
+  }
+]
