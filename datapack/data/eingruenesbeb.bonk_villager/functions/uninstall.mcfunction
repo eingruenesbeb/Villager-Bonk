@@ -47,7 +47,7 @@ data remove storage eingruenesbeb.bonk_villager:gossip_system GossipsCopy
 data remove storage eingruenesbeb.bonk_villager:gossip_system Target
 
 # The tags and effects can not be removed automatically. Tell the user how to do it manually instead.
-tellraw @s ["",{"text":"Removed data and objectives.","color":"green"},{"text":"\n"},{"text":"Important: ","bold":true,"color":"yellow"},{"text":"Tags and effects cannot be removed automatically. Please load affected Villagers and run the following actions by clicking:","color":"yellow"},{"text":"\n"},{"text":"- ","color":"aqua"},{"text":"Reset NoAI state","underlined":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/execute as @e[tag=eingruenesbeb.bv.bonked_state] run data modify entity @s NoAI set value 0b"}},{"text":"\n- ","color":"aqua"},{"text":"Tag-Removal Unavailable in this version!","color":"red"}]
+tellraw @s ["",{"text":"Removed data and objectives.","color":"green"},{"text":"\n"},{"text":"Important: ","bold":true,"color":"yellow"},{"text":"Tags and effects cannot be removed automatically. Please load affected Villagers and run the following actions by clicking:","color":"yellow"},{"text":"\n"},{"text":"- ","color":"aqua"},{"text":"Reset NoAI state","underlined":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/execute as @e[tag=eingruenesbeb.bv.bonked_state] run data modify entity @s NoAI set value 0b"}},{"text":"\n- ","color":"aqua"},{"text":"Automatic Tag-Removal unavailable in this version!","color":"red"}]
 
 # Lastly disable the datapack:
-datapack disable "file/Bonk Villager v1.4-MC1.20-1.20.4.zip"
+datapack disable "file/Bonk Villager v1.4-MC1.20.5-1.20.6.zip"
