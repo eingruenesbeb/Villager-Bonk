@@ -1,4 +1,4 @@
-# as: @e, if: score @s eingruenesbeb.vb.entityid = $hit eingruenesbeb.vb.entityid, at: [attacker location]
+# as: @e, if: score @s eingruenesbeb.bv.entityid = $hit eingruenesbeb.bv.entityid, at: [attacker location]
 # Remove legacy tags from the villager:
 tag @s remove VB_entityhit.nbit0
 tag @s remove VB_entityhit.bit0
