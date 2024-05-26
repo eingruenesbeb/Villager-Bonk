@@ -10,7 +10,13 @@
     "function": "minecraft:set_components",
     "components": {
       "minecraft:enchantment_glint_override": true,
-      "minecraft:custom_data": {}
+      "minecraft:custom_data": {
+        "smithed": {
+          "ignore": {
+            "functionality": 1
+          }
+        }
+      }
     }
   },
   {
