@@ -25,7 +25,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.0": 1
+              "bv.entityid.0": 1
             }
           }
         ]
@@ -39,7 +39,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.1": 1
+              "bv.entityid.1": 1
             }
           }
         ]
@@ -53,7 +53,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.2": 1
+              "bv.entityid.2": 1
             }
           }
         ]
@@ -67,7 +67,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.3": 1
+              "bv.entityid.3": 1
             }
           }
         ]
@@ -81,7 +81,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.4": 1
+              "bv.entityid.4": 1
             }
           }
         ]
@@ -95,7 +95,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.5": 1
+              "bv.entityid.5": 1
             }
           }
         ]
@@ -109,7 +109,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.6": 1
+              "bv.entityid.6": 1
             }
           }
         ]
@@ -123,7 +123,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.7": 1
+              "bv.entityid.7": 1
             }
           }
         ]
@@ -137,7 +137,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.8": 1
+              "bv.entityid.8": 1
             }
           }
         ]
@@ -151,7 +151,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.9": 1
+              "bv.entityid.9": 1
             }
           }
         ]
@@ -165,7 +165,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.10": 1
+              "bv.entityid.10": 1
             }
           }
         ]
@@ -179,7 +179,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.11": 1
+              "bv.entityid.11": 1
             }
           }
         ]
@@ -193,7 +193,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.12": 1
+              "bv.entityid.12": 1
             }
           }
         ]
@@ -207,7 +207,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.13": 1
+              "bv.entityid.13": 1
             }
           }
         ]
@@ -221,7 +221,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.14": 1
+              "bv.entityid.14": 1
             }
           }
         ]
@@ -235,7 +235,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.15": 1
+              "bv.entityid.15": 1
             }
           }
         ]
@@ -249,7 +249,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.16": 1
+              "bv.entityid.16": 1
             }
           }
         ]
@@ -263,7 +263,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.17": 1
+              "bv.entityid.17": 1
             }
           }
         ]
@@ -277,7 +277,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.18": 1
+              "bv.entityid.18": 1
             }
           }
         ]
@@ -291,7 +291,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.19": 1
+              "bv.entityid.19": 1
             }
           }
         ]
@@ -305,7 +305,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.20": 1
+              "bv.entityid.20": 1
             }
           }
         ]
@@ -319,7 +319,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.21": 1
+              "bv.entityid.21": 1
             }
           }
         ]
@@ -333,7 +333,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.22": 1
+              "bv.entityid.22": 1
             }
           }
         ]
@@ -347,7 +347,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.23": 1
+              "bv.entityid.23": 1
             }
           }
         ]
@@ -361,7 +361,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.24": 1
+              "bv.entityid.24": 1
             }
           }
         ]
@@ -375,7 +375,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.25": 1
+              "bv.entityid.25": 1
             }
           }
         ]
@@ -389,7 +389,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.26": 1
+              "bv.entityid.26": 1
             }
           }
         ]
@@ -403,7 +403,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.27": 1
+              "bv.entityid.27": 1
             }
           }
         ]
@@ -417,7 +417,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.28": 1
+              "bv.entityid.28": 1
             }
           }
         ]
@@ -431,7 +431,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.29": 1
+              "bv.entityid.29": 1
             }
           }
         ]
@@ -445,7 +445,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.30": 1
+              "bv.entityid.30": 1
             }
           }
         ]
@@ -459,7 +459,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.31": 1
+              "bv.entityid.31": 1
             }
           }
         ]
@@ -473,7 +473,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.0": 0
+              "bv.entityid.0": 0
             }
           }
         ]
@@ -487,7 +487,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.1": 0
+              "bv.entityid.1": 0
             }
           }
         ]
@@ -501,7 +501,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.2": 0
+              "bv.entityid.2": 0
             }
           }
         ]
@@ -515,7 +515,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.3": 0
+              "bv.entityid.3": 0
             }
           }
         ]
@@ -529,7 +529,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.4": 0
+              "bv.entityid.4": 0
             }
           }
         ]
@@ -543,7 +543,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.5": 0
+              "bv.entityid.5": 0
             }
           }
         ]
@@ -557,7 +557,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.6": 0
+              "bv.entityid.6": 0
             }
           }
         ]
@@ -571,7 +571,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.7": 0
+              "bv.entityid.7": 0
             }
           }
         ]
@@ -585,7 +585,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.8": 0
+              "bv.entityid.8": 0
             }
           }
         ]
@@ -599,7 +599,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.9": 0
+              "bv.entityid.9": 0
             }
           }
         ]
@@ -613,7 +613,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.10": 0
+              "bv.entityid.10": 0
             }
           }
         ]
@@ -627,7 +627,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.11": 0
+              "bv.entityid.11": 0
             }
           }
         ]
@@ -641,7 +641,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.12": 0
+              "bv.entityid.12": 0
             }
           }
         ]
@@ -655,7 +655,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.13": 0
+              "bv.entityid.13": 0
             }
           }
         ]
@@ -669,7 +669,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.14": 0
+              "bv.entityid.14": 0
             }
           }
         ]
@@ -683,7 +683,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.15": 0
+              "bv.entityid.15": 0
             }
           }
         ]
@@ -697,7 +697,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.16": 0
+              "bv.entityid.16": 0
             }
           }
         ]
@@ -711,7 +711,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.17": 0
+              "bv.entityid.17": 0
             }
           }
         ]
@@ -725,7 +725,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.18": 0
+              "bv.entityid.18": 0
             }
           }
         ]
@@ -739,7 +739,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.19": 0
+              "bv.entityid.19": 0
             }
           }
         ]
@@ -753,7 +753,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.20": 0
+              "bv.entityid.20": 0
             }
           }
         ]
@@ -767,7 +767,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.21": 0
+              "bv.entityid.21": 0
             }
           }
         ]
@@ -781,7 +781,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.22": 0
+              "bv.entityid.22": 0
             }
           }
         ]
@@ -795,7 +795,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.23": 0
+              "bv.entityid.23": 0
             }
           }
         ]
@@ -809,7 +809,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.24": 0
+              "bv.entityid.24": 0
             }
           }
         ]
@@ -823,7 +823,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.25": 0
+              "bv.entityid.25": 0
             }
           }
         ]
@@ -837,7 +837,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.26": 0
+              "bv.entityid.26": 0
             }
           }
         ]
@@ -851,7 +851,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.27": 0
+              "bv.entityid.27": 0
             }
           }
         ]
@@ -865,7 +865,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.28": 0
+              "bv.entityid.28": 0
             }
           }
         ]
@@ -879,7 +879,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.29": 0
+              "bv.entityid.29": 0
             }
           }
         ]
@@ -893,7 +893,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.30": 0
+              "bv.entityid.30": 0
             }
           }
         ]
@@ -907,7 +907,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "eingruenesbeb.vb.entityid.31": 0
+              "bv.entityid.31": 0
             }
           }
         ]
