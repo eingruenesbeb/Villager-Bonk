@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 7,
+        "pack_format": 6,
         "description": "A simple pack made in an effort to reduce villager trading hall lag."
     }
 }
