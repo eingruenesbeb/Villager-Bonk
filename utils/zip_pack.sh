@@ -23,7 +23,7 @@ else
     TAG_NAME=$(git describe --tags --exact-match 2>/dev/null)
     if [ -n "$TAG_NAME" ]; then
         # The latest commit has a tag
-        ARCHIVE_NAME="${PARENT_DIR} ${TAG_NAME}-${BRANCH_NAME}"
+        ARCHIVE_NAME="${PARENT_DIR} ${TAG_NAME}"
     else
         # The latest commit does not have a tag
         COMMIT_HASH=$(git rev-parse --short HEAD)
