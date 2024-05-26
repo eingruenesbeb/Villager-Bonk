@@ -1,4 +1,4 @@
 # as: @a[scores={villagerBonk=1..}]; at: [worldspawn]
 execute unless predicate eingruenesbeb.bonk_villager:has_stick run tellraw @s {"text":"You need to hold a singlular stick to do this!","color":"yellow"}
-execute if predicate eingruenesbeb.bonk_villager:has_stick run item modify entity @s weapon eingruenesbeb.bonk_villager:convert_stick
+replaceitem entity @s weapon.mainhand minecraft:stick{display:{Name:'[{"text":"The Villager \\"Bonk\\"-Stick 9000™","italic":false,"color":"gold"}]',Lore:['{"text":"This stick allows you to whack a villager with it,","color":"gray","italic":true}','{"text":"to disable its AI, if it\'s enabled (or vice versa).","color":"gray","italic":true}','{"text":"This should provide a significant performance","color":"gray","italic":true}','{"text":"boost.","color":"gray","italic":true}','{"text":"(especially to worlds with many trading halls)","color":"gray","italic":true}','{"text":"Side effect: Changes restocking mechanics slightly!","color":"dark_gray","italic":true}']}, smithed:{ignore:{functionality:1b}}, Tags:["eingruenesbeb.bv.bonk_stick"]}
 scoreboard players set @s villagerBonk 0
