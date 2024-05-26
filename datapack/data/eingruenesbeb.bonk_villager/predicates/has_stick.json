@@ -10,15 +10,7 @@
             "items": [
               "minecraft:stick"
             ],
-            "components": {
-              "minecraft:custom_data": {
-                "smithed": {
-                  "ignore": {
-                    "functionality": 1
-                  }
-                }
-              }
-            }
+            "nbt": "{smithed:{ignore:{functionality:1b}}}"
           }
         }
       }

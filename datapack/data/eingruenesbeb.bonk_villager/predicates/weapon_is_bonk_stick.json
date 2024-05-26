@@ -1,20 +1,13 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "slots": {
-      "weapon.mainhand": {
-        "components": {
-          "minecraft:custom_data": {
-            "smithed": {
-              "ignore": {
-                "functionality": 1
-              }
-            },
-            "Tags": ["eingruenesbeb.bv.bonk_stick"]
-          }
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "nbt": "{Tags:[eingruenesbeb.bv.bonk_stick]}"
         }
       }
     }
   }
-}
+]

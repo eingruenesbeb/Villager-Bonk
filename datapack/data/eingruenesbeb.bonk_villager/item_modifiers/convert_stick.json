@@ -1,17 +1,7 @@
 [
   {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:enchantment_glint_override": true,
-      "minecraft:custom_data": {
-        "smithed": {
-          "ignore": {
-            "functionality": 1
-          }
-        },
-        "Tags": ["eingruenesbeb.bv.bonk_stick"]
-      }
-    }
+    "function": "minecraft:set_nbt",
+    "tag": "{smithed:{ignore:{functionality:1b}}, Tags:[eingruenesbeb.bv.bonk_stick]}"
   },
   {
     "function": "minecraft:set_lore",
