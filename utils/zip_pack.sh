@@ -5,13 +5,17 @@ SCRIPT_PATH=$(readlink -f "$0")
 # Get the directory of the script
 SCRIPT_DIR=$(dirname "$SCRIPT_PATH")
 # Move to the grandparent directory
-cd "$SCRIPT_DIR/.."
+cd "$SCRIPT_DIR/.." || exit
 
 # Determine the parent directory name
 PARENT_DIR=$(basename "$(pwd)")
 
 # Get the current Git branch name
 BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+
+if [[ "$BRANCH_NAME" -ef "main" ]]; then
+    BRANCH_NAME="MC1.21"
+fi
 
 # Check for uncommitted changes
 if ! git diff-index --quiet HEAD --; then
@@ -39,10 +43,10 @@ mkdir -p archives
 [ -f "./archives/$ARCHIVE_NAME (resources).zip" ] && rm "./archives/$ARCHIVE_NAME (resources).zip"
 
 # Create zip archives for datapack and resources directories
-cd "./datapack"
-zip -r "../archives/${ARCHIVE_NAME}.zip" *
-cd "../resources"
-zip -r "../archives/${ARCHIVE_NAME} (resources).zip" *
+cd "./datapack" || exit
+zip -r "../archives/${ARCHIVE_NAME}.zip" -- *
+cd "../resources" || exit
+zip -r "../archives/${ARCHIVE_NAME} (resources).zip" -- *
 
 echo "Archives created in the 'archives' directory:"
 echo " - archives/${ARCHIVE_NAME}.zip"
